@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+.container {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-transform: uppercase;
+
+    background-color: #222;
+}
+
+.main {
+    display: flex;
+    max-width: 1200px;
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+}
+
+.generate-password {
+    display: flex;
+    margin: auto;
+    padding: 100px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 0 30px #888;
+}
+
+.form input {
+    display: block;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 1.2rem;
+
+    border: 1px solid #000;
+    border-radius: 20px;
+
+    outline: none;
+}
+
+.form button {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 25px;
+
+    color: #fff;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: #222;
+
+    cursor: pointer;
+
+    transition: transform .3s linear;
+}
+
+.form button:hover {
+    transform: scale(1.1);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.options label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options input {
+    margin-left: 5px;
+}
+
+#password-legth {
+    width: 100%;
+    margin-left: 0;
+    padding: 1px 10px;
+
+    background-color: #f2f2f2;
+
+    border: none;
+    border-radius: 5px;
+
+    outline: none;
+}
+
+.notifications {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.notification {
+    display: flex;
+    min-width: 300px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f2f2f2;
+
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 5px #777;
+}
